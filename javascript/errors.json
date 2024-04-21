@@ -1,0 +1,22 @@
+{
+  "errors": [
+    {
+      "errorCode": "1234",
+      "errorName": "test name",
+      "errorDescription": "test description",
+      "errorExplanation": "test explanation"
+    },
+    {
+      "errorCode": "1235",
+      "errorName": "test name2",
+      "errorDescription": "test description",
+      "errorExplanation": "test explanation"
+    },
+    {
+      "errorCode": "1236",
+      "errorName": "test name3",
+      "errorDescription": "test description",
+      "errorExplanation": "test explanation"
+    }
+  ]  
+}
