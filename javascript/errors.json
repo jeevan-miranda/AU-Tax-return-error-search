@@ -1,22 +1,20 @@
-{
-  "errors": [
-    {
-      "errorCode": "1234",
-      "errorName": "test name",
-      "errorDescription": "test description",
-      "errorExplanation": "test explanation"
-    },
-    {
-      "errorCode": "1235",
-      "errorName": "test name2",
-      "errorDescription": "test description",
-      "errorExplanation": "test explanation"
-    },
-    {
-      "errorCode": "1236",
-      "errorName": "test name3",
-      "errorDescription": "test description",
-      "errorExplanation": "test explanation"
-    }
-  ]  
-}
+[
+  {
+    "code": "NonATO.V35",
+    "name": "Value entered at T8 label T is not a valid value",
+    "description": "Landcare and water facility tax offset has been claimed at T8 and the offset amount cannot be zero or greater than $13,100",
+    "explanation": "In the ITR return, if there is a zero reported at item T8 in the Offsets tab, the user will need to remove the zero and leave the field blank to satisfy the error."
+  },
+  {
+    "code": "1235",
+    "name": "test name2",
+    "description": "test description",
+    "explanation": "test explanation"
+  },
+  {
+    "code": "1236",
+    "name": "test name3",
+    "description": "test description",
+    "explanation": "test explanation"
+  }
+]  

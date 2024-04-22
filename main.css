@@ -5,7 +5,7 @@
 }
 
 input {
-  font-size: 1rem;
+  font-size: 16px;
 }
 
 .error-cards {
@@ -21,11 +21,21 @@ input {
   padding: 0.5rem;
 }
 
-.card > .header {
+.card > .error-code {
   margin-bottom: 0.25rem;
 }
 
-.card > .body {
+.card > .error-name {
+  font-size: 0.8rem;
+  color: #777;
+}
+
+.card > .error-description {
+  font-size: 0.8rem;
+  color: #777;
+}
+
+.card > .error-explanation {
   font-size: 0.8rem;
   color: #777;
 }

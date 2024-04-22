@@ -9,23 +9,17 @@
   <body>
     <div class="search-wrapper">
       <label for="search">Search Error</label>
-      <input type="search" id="search" />
+      <input type="search" id="search" data-search />
     </div>
-    <div class="error-cards">
+    <div class="error-cards" data-error-card-container></div>
+    <template data-error-template>
       <div class="card">
-        <div class="header">Error code</div>
-        <div class="body">Error description</div>
+        <div class="error-code" data-code></div>
+        <div class="error-name" data-name></div>
+        <div class="error-description" data-description></div>
+        <div class="error-explanation" data-explanation></div>
       </div>
-      <div class="card">
-        <div class="header">Error code</div>
-        <div class="body">Error description</div>
-      </div>
-      <div class="card">
-        <div class="header">Error code</div>
-        <div class="body">Error description</div>
-      </div>
-    </div>
-
+    </template>
     <script src="/javascript/main.js"></script>
   </body>
 </html>
