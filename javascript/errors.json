@@ -6,8 +6,26 @@
     "explanation": "In the ITR return, if there is a zero reported at item T8 in the Offsets tab, the user will need to remove the zero and leave the field blank to satisfy the error."
   },
   {
-    "code": "1235",
-    "name": "test name2",
+    "code": "CMN.ATO.GEN.XBRL03",
+    "name": "The value specified for an item does not match the item type",
+    "description": "The value specified for an item does not match the item type ((value = "[address] ", item type = null, uniqueID = /{http://www.sbr.gov.au/ato/rntlprpty}AddressDetails.Line1.Text[0])",
+    "explanation": "test explanation"
+  },
+  {
+    "code": "1236",
+    "name": "test name3",
+    "description": "test description",
+    "explanation": "test explanation"
+  },
+  {
+    "code": "1236",
+    "name": "test name3",
+    "description": "test description",
+    "explanation": "test explanation"
+  },
+  {
+    "code": "1236",
+    "name": "test name3",
     "description": "test description",
     "explanation": "test explanation"
   },
