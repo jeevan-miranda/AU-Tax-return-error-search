@@ -8,31 +8,31 @@
   {
     "code": "CMN.ATO.GEN.XBRL03",
     "name": "The value specified for an item does not match the item type",
-    "description": "The value specified for an item does not match the item type ((value = "[address] ", item type = null, uniqueID = /{http://www.sbr.gov.au/ato/rntlprpty}AddressDetails.Line1.Text[0])",
-    "explanation": "test explanation"
+    "description": "The value specified for an item does not match the item type (value = \"[address] \", item type = null, uniqueID = /{http://www.sbr.gov.au/ato/rntlprpty}AddressDetails.Line1.Text[0])",
+    "explanation": "This error will trigger when there are special characters entered into an address field in the return or within a rental schedule. The behavour can also occur when the address contains more than 30 characters. See KA 000035975"
   },
   {
-    "code": "1236",
-    "name": "test name3",
+    "code": "CMN.ATO.GEN.XML03",
+    "name": "The value specified for an item does not match the item type",
+    "description": "The value specified for an item does not match the item type (value = \"\", item type = Decimal, uniqueID = http://www.sbr.gov.au/ato/incdtls:IncomeInsuranceLifePremiumDirectGrossA)",
+    "explanation": "The error normally triggers Foreign pensions and annuity worksheet included at label 20L"
+  },
+  {
+    "code": "CMN.ATO.GEN.XML03",
+    "name": "The value specified for an item does not match the item type",
     "description": "test description",
     "explanation": "test explanation"
   },
   {
-    "code": "1236",
-    "name": "test name3",
-    "description": "test description",
-    "explanation": "test explanation"
+    "code": "CMN.ATO.GEN.XML03",
+    "name": "The value specified for an item does not match the item type",
+    "description": "The value specified for an item does not match the item type (value = \"\", item type = Decimal, uniqueID = http://www.sbr.gov.au/ato/incdtls:IncomePartnershipInvestmentLessForeignIncomeNonPrimaryProductionShareA) Hint: The string '' is not a valid Decimal value. LESS  ",
+    "explanation": "This error message are triggered by blank fields above label O in the Partnership and trust worksheet, when there is also '0' entered at Y and the 2 fields above it. \nTo resolve the error codes, you would need to enter an amount at the 3 fields above label O (even if it's a zero) for the partnership and trust worksheet."
   },
   {
-    "code": "1236",
-    "name": "test name3",
-    "description": "test description",
-    "explanation": "test explanation"
-  },
-  {
-    "code": "1236",
-    "name": "test name3",
-    "description": "test description",
-    "explanation": "test explanation"
+    "code": "CMN.ATO.GEN.XML01 ",
+    "name": "The message did not pass XML validation. Please contact your software provider.",
+    "description": "The element 'DividendsCollection' in namespace 'http://www.sbr.gov.au/ato/incdtls' has invalid child element 'Dividends' in namespace 'http://www.sbr.gov.au/ato/incdtls'. Hint: while processing parent element [DividendsCollection] child non mandatory element [Dividends] was unexpected",
+    "explanation": "The error is triggered when there are more than 50 item worksheets included at item 11 Dividends in thw ITR return."
   }
 ]  

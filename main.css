@@ -9,7 +9,7 @@ input {
 }
 
 .error-cards {
-  display: grid;
+  display: table;
   grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
   gap: 0.25rem;
   margin-top: 1 rem;
@@ -18,7 +18,7 @@ input {
 .card {
   border: 1px solid black;
   background-color: white;
-  padding: 0.5rem;
+  padding: 10px;
 }
 
 .card > .error-code {
@@ -26,7 +26,7 @@ input {
 }
 
 .card > .error-name {
-  font-size: 0.8rem;
+  font-size: 14px;
   color: #777;
 }
 
